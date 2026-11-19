@@ -18,3 +18,15 @@
 .cv-embed{width:100%;height:min(82vh,1050px);min-height:560px;border:1px solid var(--line);background:#f0f0f0;border-radius:3px;display:block}
 .cv-fallback{font-size:13px;color:var(--muted);margin-top:13px}
 @media(max-width:760px){.hero-profile{grid-template-columns:1fr;gap:35px;padding:57px 0 55px}.hero-profile .portrait-wrap{max-width:350px}.nav{gap:19px;flex-wrap:wrap}.cv-embed{min-height:430px;height:70vh}}
+
+/* Homepage headshot adjustments */
+.hero-profile .portrait {
+    width: 100%;
+    height: auto;
+    aspect-ratio: auto;
+    object-fit: contain;
+}
+.hero-profile .portrait-wrap {
+    max-width: 320px;
+    margin: 0 auto;
+}
